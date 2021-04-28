@@ -1,0 +1,31 @@
+ul.arianne {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    border-radius: 10px solid;
+  }
+  
+
+  ul.arianne li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+
+  ul.arianne li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  
+
+  ul.arianne li a {
+    color: #0056a1;
+    text-decoration: none;
+  }
+  
+
+  ul.arianne li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
